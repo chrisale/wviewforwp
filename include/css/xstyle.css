@@ -1,0 +1,474 @@
+/*  
+Theme Name: Windward Systems
+Theme URI: http://www.windwardsystems.com/
+Description: This stylesheet is based on the stylesheet at Alberniweather.ca.  It was created to support the WView weather application for Davis and other automatic Weather station systems.  
+Version: 1.3
+Author: Chris Alemany
+Author URI: http://www.alberniwetaher.ca/
+*/
+*{
+top: 0px;
+left:0px;
+padding:0px;
+margin:0px;
+list-style:none;
+text-decoration: none;
+
+}
+
+/*div[id="forecast"]::before {
+visibility: hidden;
+}
+*/
+a:link {
+color: #00c;
+}
+a:visited {
+color: #009;
+}
+
+
+body {
+
+	margin: auto;
+	color: #000;
+	width: 980px;
+	background-color: #154;
+	font: 100% Geneva, sans-serif;
+	
+	
+}
+
+dt {
+
+font-family: Georgia, sans-serif;
+font-size: small;
+}
+
+dd {
+font-family: Geneva, sans-serif;
+font-size: small;
+}
+
+del {
+text-decoration: line-through;
+}
+
+#bannerheader {
+	
+	width: 100%;
+	-moz-border-radius: 22px;
+	-webkit-border-radius: 22px;
+	border-radius: 22px;
+	top:0px;
+	
+}
+#sidebar {
+	
+	float: left;
+	position: relative;
+	width: 0px;
+	padding: 0px;
+	top: 0px;
+	margin: 1px;
+	-moz-border-radius: 0px
+	-webkit-border-radius: 0px
+	border-radius: 0px
+	
+}
+
+#indexpage {
+background-color: #154;
+height:100%;
+}
+
+.headingindex {
+
+background-color: #eef;
+}
+
+.bigcondition {
+
+font-size: medium;
+
+
+}
+
+.header {
+
+padding: 10px;
+width: 185px;
+border-bottom:2px solid #155;
+text-align: center;
+font-size: 14pt;
+}
+
+.largegraph {
+padding-left: 20px;
+padding-bottom: 700px;
+border-left: 1px solid black;
+}
+
+#forecast {
+position: relative;
+font-size: small;
+left: 1px;
+width: 960px;
+padding: 10px;
+-moz-border-radius: 0px 0px 22px 22px;
+-webkit-border-radius: 0px;
+border-radius:  0px 0px 22px 22px;
+background-color: #ddf;
+}
+
+
+
+.centeralignbox {
+text-align: center;
+padding:0px;
+font-size: x-small;
+-moz-border-radius: 22px;
+-webkit-border-radius: 22px;
+border-radius: 22px;
+background-color: #ddf;
+
+}
+
+
+#topbox {
+-moz-border-radius: 22px 22px 0px 0px;
+-webkit-border-radius: 0px;
+border-radius: 22px 22px 0px 0px;
+width: 548px;
+margin-top: 1px;
+margin-left: 298px;
+background-color: #ddf;
+padding-bottom: 0px;
+}
+
+#topfooter {
+text-align: center;
+color: black;
+
+}
+
+
+.currentconditions {
+text-align: center;
+font-size: x-large;
+padding-left: 10px;
+margin-top: 20px;
+float:left;
+width: 130px;
+
+}
+
+.leftconditions{
+ width: 200px;
+ margin:0px;
+ padding:1px;
+ float:left;
+ display:inline;
+}
+
+.currentconditions ul{
+
+position: inherit;
+list-style: none;
+float:none;
+display:block;
+width: 130px;
+}
+
+.leftconditions li{
+
+padding-bottom: 5px;
+}
+
+.leftconditions li dt{
+
+float:left;
+padding-left: 5px;
+width: auto;
+}
+
+.leftconditions dd{
+
+text-align: right;
+padding-right: 5px;
+}
+
+
+#bottombox {
+
+-moz-border-radius: 22px 22px 0px 0px;
+-webkit-border-radius: 0px;
+border-radius: 22px 22px 0px 0px;
+background-color: #ddf;
+width: 706px;
+margin-top: 1px;
+margin-left: 215px;
+padding: 5px;
+}
+
+
+#bottombox .leftconditions li dd{
+text-align: right;
+
+}
+
+#bottombox .leftconditions {
+width: 225px;
+
+}
+
+#bottombox .header {
+width: 223px;
+
+}
+
+#blogsection {
+text-align: center;
+margin: 1px 0px 0px 163px;
+padding:0px;
+width:818px;
+height: 100%;
+font-size: small;
+-moz-border-radius: 22px;
+-webkit-border-radius: 0px;
+border-radius: 22px;
+background-color: #ddf;
+}
+
+.postcontent {
+margin-left: 95px;
+padding: 10px;
+text-align: left;
+font-size: 10pt;
+width: 600px;
+
+}
+
+
+.comments {
+margin-left: 50px;
+padding: 10px;
+text-align: left;
+font-size: 10pt;
+width: 300px;
+
+}
+
+
+
+.postcontent p {
+padding-bottom: 10px;
+}
+
+
+#customsearch {
+width:800px;
+font-size: 6pt;
+
+
+}
+
+/** Single Pages and Comments **/
+
+.singlepost {
+text-align: center;
+}
+
+
+.blogheading {
+
+text-align: center;
+
+
+}
+
+
+.comments {
+margin-left: 50px;
+padding: 10px;
+text-align: left;
+font-size: 10pt;
+width: 300px;
+}
+
+.comments li {
+
+border-bottom: 1px dashed #eee;
+padding-bottom: 20px;
+
+}
+
+/* HORIZONTAL FREESTYLE MENU LAYOUT */
+
+#listMenuRoot {
+
+width:150px;
+-moz-border-radius: 22px;
+-webkit-border-radius: 0px 0px 22px 22px;
+border-radius: 22px;
+background-color: #ddf;
+padding: 5px;
+
+}
+
+/* All <ul> tags in the menu including the first level */
+.menulist, .menulist  ul {
+ margin: 0px;
+ list-style: none;
+background-color: #d5d5ff;
+padding: 5px;
+ 
+}
+/*
+ All menu items (<li> tags). 'float: left' lines them up horizontally, and they are
+ positioned relatively to correctly offset submenus. Also, they have overlapping borders.
+*/
+.menulist li {
+ position: relative;
+ width: 149px;
+ /*border-right: 0px solid #dee;*/
+ padding-bottom:4px;
+ margin-right: 0px;
+ 
+
+}
+
+/* Submenus (<ul> tags) are hidden and absolutely positioned downwards from their parent */
+.menulist ul {
+ visibility: hidden;
+ position: absolute;
+ font-size: 8pt;
+ /*border-bottom: 1px dashed #333;*/
+ margin: 0px;
+ top: 0px; /* I'm using ems rather than px to allow people to zoom their font */
+ left: 133px;
+ width: 149px;
+ padding-top: 10px;
+
+ 
+
+ 
+}
+
+/* Items in submenus - override float/border/margin from above, restoring default vertical style */
+.menulist ul li {
+ float: left;
+ width: 140px;
+ margin-right: 0;
+ margin-bottom: 0px;
+ 
+/* border-right: 1px dotted #aab;
+ */ 
+ 
+}
+
+
+/* Second and third etc. level submenus - position across from parent instead */
+.menulist ul ul {
+ top: 0px;
+ margin-left: 0px;
+
+ 
+}
+
+
+
+
+/* Links inside the menu */
+.menulist a {
+ display: block;
+ width: 150px;
+ padding-top: 3px;
+ text-decoration:  none;
+ /*border-bottom: 1px solid #333;
+*/ 
+}
+
+/* Lit  items: 'hover' is mouseover, 'highlighted' are parent items to visible menus */
+.menulist a:hover, .menulist a.highlighted:hover, .menulist a:focus {
+ color: #FA5;
+ background-color: #d5d5ff;
+ 
+}
+.menulist  a.highlighted {
+ color: #FB9;
+ background-color: #d5d5ff;
+}
+
+/*
+ If you want per-item background images in your menu items, here's how to do it.
+ 1) Assign a unique ID tag to each link in your menu, like so: <a id="xyz" href="#">
+ 2) Copy and paste these next lines for each link you want to have an image:
+    .menulist a#xyz {
+      background-image: url(out.gif);
+    }
+    .menulist a#xyz:hover, .menulist a.highlighted#xyz, .menulist a:focus {
+     background-image: url(over.gif);
+    }
+*/
+
+/* Only style submenu indicators within submenus. */
+.menulist a .subind {
+ display:  none;
+ color: #000;
+ 
+
+}
+.menulist ul a .subind {
+ display:  block;
+ float: right;
+ width: 150px;
+ 
+
+}
+
+.menulist a {
+ width: 150px;
+ float: none;
+  background-color: transparent;
+}
+/* */
+
+
+/* This semi-commented section exists to fix bugs in IE/Windows (the 'Holly Hack'). \*/
+* html .menulist  ul li {
+ width: 150px;
+ float: left;
+ height: 1%;
+ 
+}
+* html .menulist  ul a {
+ height: 1%;
+ 
+}
+
+blockquote{
+text-align: left;
+margin: 10px 50px 10px 50px;
+}
+blockquote p{
+
+text-align: left;
+font-style: italic;
+border: 1px solid #444;
+background-color: #eee;
+width: 500px;
+padding: 10px;
+}
+.gogo {
+font-size: 30pt;
+color: #D9D919;
+}
+.canada{
+font-size: 15pt;
+color: #f00;
+}
+.gocanada{
+text-align: center;
+width:100%;
+}
